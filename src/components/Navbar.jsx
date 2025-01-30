@@ -4,9 +4,10 @@ export default function Navbar() {
       <nav className="navbar">
         <div className="nav-container">
           {/* Logo Section */}
-          <div className="logo-container">
-            <img src="/assets/logo.png" alt="AHS Connect Logo" className="logo-img" />
-            <h1 className="logo-text">AHS Connect</h1>
+          <div className="logo-box">
+            <div className="logo-container">
+                <img src="/assets/nav-logo.png" alt="AHS Connect Logo" className="logo-img" />
+            </div>
           </div>
   
           {/* Navigation Links */}
