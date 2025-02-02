@@ -6,9 +6,12 @@ export default function Navbar() {
           {/* Logo Section */}
           <div className="logo-box">
             <div className="logo-container">
-                <img src="/assets/nav-logo.png" alt="AHS Connect Logo" className="logo-img" />
+                <img src="/assets/nav-logo-1.png" alt="AHS Connect Logo" className="logo-img" />
             </div>
           </div>
+
+          {/* Title Section */}
+          <h2 className="nav-title">American Hospitality Services Inc.</h2>
   
           {/* Navigation Links */}
           <ul className="nav-links">
